@@ -16,8 +16,6 @@ on:
         description: Maximum ACER decisions to inspect
         required: true
         default: '25'
-  schedule:
-    - cron: '*/5 * * * *'
 
 permissions:
   contents: read
